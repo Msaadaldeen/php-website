@@ -1,0 +1,442 @@
+.error {
+    color: #FF0000;
+    font-weight: 300;
+    list-style: none;
+    margin-top: .2em;
+    margin-left: -2.3em;
+}
+
+
+body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('/images/bg2.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.white-space {
+    margin-bottom: 5em;
+}
+
+
+
+
+.menu {
+    margin: 0 0.6em;
+}
+
+.navi {
+    padding-bottom: 2em;
+    display: block;
+}
+
+
+/* Dashboard */
+
+body {
+    background-color: #eeeeee;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
+
+.center {text-align: center; margin-left: auto; margin-right: auto; margin-bottom: auto; margin-top: auto;}
+
+
+/* About */
+
+.aboutus-area {
+    padding-top:10px;
+     padding-bottom:10px;
+}
+/*-- aboutus Image --*/
+.aboutus-image {
+  margin: 0px;
+  width: 480px; 
+    height:500px;
+}
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .aboutus-image {
+      margin-right: 35px;
+      width: 345px; } 
+      
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .aboutus-image {
+      margin-bottom: 30px;
+      float: none; } }
+  @media only screen and (max-width: 767px) {
+    .aboutus-image {
+      margin-bottom: 30px;
+      margin-right: 0;
+      float: none;
+      width: auto;  }
+         .hidden-sm {
+      display: block!important;
+      width: 340px;
+      height: 85%;
+  }
+  }
+  .aboutus-image img {
+      height:100%;
+    width: 100%; }
+
+/*-- aboutus Content --*/
+.aboutus-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 40px;
+  margin-bottom: 2px; }
+  @media only screen and (max-width: 479px) {
+    .aboutus-content h2 {
+      font-size: 30px;
+      line-height: 30px; } }
+  .aboutus-content h2 span {
+    color: #158396; }
+
+.aboutus-content h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #9b9b9b;
+  margin-bottom: 23px; }
+
+.aboutus-content p {
+  font-size: 16px;
+  line-height: 27px; }
+  
+ /*-- counter --*/
+.single-counter {
+  border:none;
+  margin-top: 32px;
+  float: left;
+  width: 100%; }
+   .single-counter {
+    float: left;
+    width: 25%;
+    padding: 28px 15px 28px; }
+
+    @media only screen and (max-width: 767px) {
+      .counter .single-counter{
+        width: 50%; 
+        }
+      
+    .counter .single-counter + .single-counter {
+      border-left: none }
+    .counter .single-counter h2 {
+      font-size: 30px;
+      color: #71b100;
+      line-height: 24px;
+      font-family: "Open Sans", sans-serif;
+      margin-bottom: 8px; }
+    .counter .single-counter p {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 0;
+      color: #8f8f8f; }
+
+    
+    }
+
+    .cardbox-comments .comment-avatar img{
+      margin-right: 2.5em;
+      position: relative;
+      display: inline-block;
+      text-align: center;
+      width: 40px;
+      height: 40px;
+    }
+
+
+    .search {
+      width: 70%;
+    }
+
+
+    .search input[type="text"] {
+      background-color: #fff;
+      line-height: 10px;
+      padding: 15px 60px 20px 10px;
+      border: none;
+      border-radius: 4px;
+      width: 90%;
+      font-family: 'Rokkitt', serif;
+      font-size: 14px;
+      color: #8d8d8d;
+      height: inherit;
+      font-weight: 700;
+     }
+
+     .send button {
+      border: none;
+      background-color: transparent;
+      color: #0156B3;
+      cursor: pointer;
+     }
+
+
+     .send button i {
+      font-size: 20px;
+      line-height: 30px;
+     }
+
+    /* hero */
+
+    header.masthead {
+      position: relative;
+      height: 100vh;
+      background-color: #343a40;
+      background: url('/images/board.jpg') no-repeat center center;
+      background-size: cover;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+  }
+
+  header.masthead .overlay{position:absolute;background-color:#212529;height:100%;width:100%;top:0;left:0;opacity:.3}
+
+  @media (min-width:768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+    header.masthead h3 {
+        font-size: 4rem;
+    }
+}
+
+  .testimonials{
+    padding-top:5rem;
+    padding-bottom:5rem;
+    
+}
+
+.myform-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+button.btn.btn-light {
+    position: absolute;
+    background: transparent;
+    border: none;
+    height: 38px;
+    right: 23px;
+}
+
+a.btn.btn-default.btn-scroll {
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 100%;
+}
+
+
+
+/* pricing */
+
+
+.price-sec-wrap {
+  width: 100%;
+  float: left;
+  padding: 3.75em 0;
+  font-family: 'Lato', sans-serif;
+}
+.main-heading {
+  text-align: center;
+    font-weight: 600;
+    padding-bottom: 0.93em;
+    position: relative;
+    text-transform: capitalize;
+    font-size: 1.5em;
+    margin-bottom: 1.56em;
+}
+.price-box {
+  box-shadow: 0 0 2.18em rgba(0, 0, 0, 0.10);
+  padding: 1.25em;
+  background: #fff;
+    border-radius: 0.25em;
+}
+.price-box ul {
+    padding: 10px 0px 30px;
+    margin: 1.06em 0 0 0;
+    list-style: none;
+    border-top: solid 1px #e9e9e9;
+}
+.price-box ul li {
+  padding: 0.43em 0;
+    font-size: 0.875em;
+    color: #808080;
+}
+.price-box ul li .fas {
+  color: #68AE4A;
+  margin-right: 0.43em; 
+  font-size: 0.75em;
+}
+.price-label {
+  font-size: 1em;
+    font-weight: 600;
+    line-height: 1.34;
+    margin-bottom: 0;
+    padding: 0.375em 0.93em;
+    display: inline-block;
+    border-radius: 3px; 
+}
+.price-label.basic {
+    background: #E8EAF6;
+    color: #3F51B5;
+}
+.price-label.value {
+    background: #E8F5E9;
+    color: #4CAF50;
+}
+.price-label.premium {
+    background: #FBE9E7;
+    color: #FF5722;
+}
+.price {
+  font-size: 2em;
+    line-height: 2em;
+    margin: 0.8em 0 0.3;
+    font-weight: 900;
+}
+.price-info {
+  font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.67;
+    color: inherit;
+    width: 100%;
+    margin: 0;
+    color: #989898;
+}
+.plan-btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  padding: 0.68em 1.875em;
+  border: 2px solid #b3b3b3;
+  color: #16A2B8;
+  margin-top: 0.31em;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  border-radius: 0.3em;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  font-size: 0.875em;
+}
+.plan-btn::after {
+  position: absolute;
+  left: -100%;
+  top: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #16A2B8;
+  z-index: -1;
+  transition: all 0.35s ease-in-out;
+}
+.plan-btn:hover::after {
+  left: 0;
+}
+.plan-btn:hover, 
+.plan-btn:focus {
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #16A2B8;
+}
+@media (max-width: 991px) {
+  .price-box {
+    margin-bottom: 1.25em;
+  }
+}
+@media (max-width: 575px) {
+  .main-heading {
+    font-size: 1.3em;
+  }
+  .price-box {
+    margin-bottom: 1.25em;
+  }
+}
+
+/* footer */
+
+footer.footer {
+  padding-top:4rem;
+  padding-bottom:4rem
+}
+
+li.list-inline-item a {
+    color: rgb(71, 69, 69);
+    text-decoration: none;
+}
+
+
+/* Arrow Animation */
+
+.floating-arrow {
+  -webkit-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+  -o-animation: floating-arrow 1.6s infinite ease-in-out 0s;
+  animation: floating-arrow 1.6s infinite ease-in-out 0s;
+}
+
+@keyframes floating-arrow {
+  from {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+  65% {
+      -webkit-transform: translateY(11px);
+      transform: translateY(11px);
+  }
+  to {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+  }
+}
+
+/* flash messages */
+
+div .messages {
+  color : rgb(50, 21, 196);
+  font-size: 1.5rem;
+}
