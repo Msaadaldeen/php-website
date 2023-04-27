@@ -19,3 +19,5 @@ there is also a login and register system.
 5. Run the website
 
 PS: you need MAMP or XAMPP to run the website and the website folder should be in the htdocs folder in XAMPP or MAMP
+
+the document root in MAMP or XAMPP should be the public folder in the website folder
