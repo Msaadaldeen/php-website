@@ -17,3 +17,5 @@ there is also a login and register system.
 4. Change the database credentials in the config.php file
 
 5. Run the website
+
+PS: you need MAMP or XAMPP to run the website and the website folder should be in the htdocs folder in XAMPP or MAMP
